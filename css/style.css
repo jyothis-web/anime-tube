@@ -39,6 +39,11 @@ header {
   width: 22px;
   margin-right: 25px;
 }
+.close-icon{
+  display: none;
+  width: 32px;
+  margin-right: 20px;
+}
 .left-section .menu-icon:hover{
   transform: scale(1.2);
   transition: 0.3s;
@@ -82,6 +87,19 @@ header {
   position: fixed;
   padding-left: 2%;
   padding-top: 15px;
+}
+.sideline{
+  display: none;
+  background: white;
+  width: 200px;
+  z-index: 10;
+  height: 100vh;
+  position: fixed;
+  padding-left: 2%;
+  padding-top: 15px;
+}
+.sideline a{
+  padding-bottom: 13px;
 }
 .shortcut a img {
   width: 20px;
@@ -515,5 +533,25 @@ text-transform: capitalize;
     margin-left: 0;
     margin-right: 15px;
     margin-top: 15px;
+  }
+}
+@media(max-width:475px){
+  .middle-section .search-box input {
+    width: 200px;
+    margin-right: 25px;
+  }
+  .left-section #logo {
+    width: 90px;
+  }
+
+}
+@media(max-width:475px){
+  .middle-section .search-box input {
+    width: 100px;
+    margin-right: 20px;
+  }
+  .left-section #logo {
+    width: 70px;
+    margin-left: -10px !important;
   }
 }
