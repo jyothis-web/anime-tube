@@ -35,10 +35,16 @@ header {
   border-radius: 50%;
   margin-right: 0%;
 }
-.left-section .menu-icon {
+.menu-icon2{
+  display: none;
   width: 22px;
   margin-right: 25px;
 }
+ .menu-icon {
+  width: 22px;
+  margin-right: 25px;
+}
+
 .close-icon{
   display: none;
   width: 32px;
@@ -236,6 +242,13 @@ text-transform: capitalize;
   /* .menu-icon {
     display: none;
   } */
+  .menu-icon{
+    display:none;
+
+  }
+  .menu-icon2{
+    display: block;
+  }
   .sidebar {
     display: none;
   }
